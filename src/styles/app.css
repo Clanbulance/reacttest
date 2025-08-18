@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding:0px;
+}
+#root{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.taskboard{
+    padding: 0.2em;
+    background-color: rgb(0, 0, 0);
+}
+
+.taskboard ul {
+    list-style-type: none;
+    background-color: white;
+}
+
+.taskboard table{
+    
+}
+
+.taskboard table th{
+    
+    padding:0.5rem;
+    background-color: white;
+}
+
+.taskboard table td{
+    
+    padding:0.5rem;
+    background-color: white;
+}
